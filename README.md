@@ -1,3 +1,8 @@
+![Splash Screen](https://github.com/user-attachments/assets/8da03c76-3c8b-4b9b-ab31-81ce03133199)
+
+
+
+
 SplashActivity:
  Display Splash Screen with app name, your name, student number, and logo
  If main button clicked:
