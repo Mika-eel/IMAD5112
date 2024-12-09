@@ -30,6 +30,7 @@ MainActivity:
  Clear input fields
  Show success message
  Else:
+ 
  Show error message
  On clearButton click:
  Clear dates
@@ -41,6 +42,7 @@ MainActivity:
  Create Intent to navigate to DetailedViewActivity
  Pass dates, morningSpending, afternoonSpending, activityNotes to DetailedViewActivity
  Start DetailedViewActivity
+ 
 DetailedViewActivity:
  Initialize detailsTextView
  Initialize averageTextView
@@ -56,6 +58,7 @@ DetailedViewActivity:
  If dates is not empty:
  Calculate averageSpending as totalScreenTime / number of days
  Else:
+ 
  Set averageScreenTime to 0
  Display details in detailsTextView
  Display averageSpending in averageTextView
